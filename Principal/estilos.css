@@ -1,0 +1,169 @@
+html {
+    font-family: sans-serif;
+    margin: 0;
+  padding: 0;
+  }
+  
+  
+  body, ul, html {
+    margin: 0;
+    padding: 0;
+
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+  
+}
+
+
+nav{
+    
+    position: relative; top: -5px;
+    
+}
+
+
+#mensaje{
+    background-color: #121212;
+    text-align: center;
+   
+}
+h3{
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Assistant, sans-serif;
+}
+
+#menu{
+    background-color: black;
+    height: 120px;
+    margin: 0;
+    line-height: 120px; 
+    
+    
+}
+
+.hh{
+    color: rgb(195, 158, 64, 0.5);;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 10px;
+    font-size: 13px;
+    position: relative; top: 10px;
+}
+
+#hh1{
+    color: rgb(195, 158, 64);;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 10px;
+    font-size: 13px;
+    position: relative; top: 10px;
+}
+
+#hh1{
+    color: rgb(195, 158, 64);
+    text-decoration: underline;
+}
+
+.hh:hover {
+    text-decoration: underline;
+    color: rgb(195, 158, 64);
+}
+li{
+    display: inline;
+}
+
+li{
+    list-style-type: none;
+    position: relative; left: 670px;
+
+    
+}
+
+#perfume{
+    position: absolute; top: 30px;
+    position: absolute; left: 500px;
+    height: 130px;
+    
+}
+
+#seccion1{
+
+        background-image: url('fondo7.jpg');
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        color: #ffffff; 
+        height: 730px;
+
+}
+
+
+
+
+
+#texto1{
+    text-align: center;
+    position: relative;top: 650px;
+    font-size: 40px;
+    font-weight: normal;
+    padding: 10px;
+    margin: 0;
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Assistant, sans-serif;
+}
+
+#boton1{
+    text-align: center;
+    position: relative;top: 610px;
+}
+
+#colorboton{
+    color: white;
+    text-decoration: none;
+}
+#estilosboton{
+    padding: 15px 30px; 
+    font-size: 16px; 
+    border: 1px solid white; 
+    background-color: transparent; 
+    color: #ffffff; 
+    outline: none; 
+    margin: 0; 
+    box-shadow: none; 
+    
+
+}
+
+a{
+    color: white;
+}
+
+#estilosboton:hover{
+    border-width: 2px; 
+
+}
+
+#seccion2{
+    background-color: black;
+}
+
+#piedepagina{
+
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    text-align: center;
+    line-height: 25px;
+}
+

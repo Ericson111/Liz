@@ -1,0 +1,227 @@
+html {
+    font-family: sans-serif;
+    margin: 0;
+  padding: 0;
+  }
+  
+  
+  body, ul, html {
+    margin: 0;
+    padding: 0;
+
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+  
+}
+
+body{
+    background-color: black;
+}
+nav{
+    
+    position: relative; top: -5px;
+    
+}
+
+
+#mensaje{
+    background-color: #121212;
+    text-align: center;
+   
+}
+h3{
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Assistant, sans-serif;
+}
+
+#menu{
+    background-color: black;
+    height: 120px;
+    margin: 0;
+    line-height: 120px; 
+    border-bottom: 1px solid #c39e32;
+    
+    
+}
+
+.hh{
+    color: rgb(195, 158, 64, 0.5);;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 10px;
+    font-size: 13px;
+    position: relative; top: 10px;
+}
+
+#hh1{
+    color: rgb(195, 158, 64);;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 10px;
+    font-size: 13px;
+    position: relative; top: 10px;
+}
+
+#hh1{
+    color: rgb(195, 158, 64);
+    text-decoration: underline;
+}
+
+.hh:hover {
+    text-decoration: underline;
+    color: rgb(195, 158, 64);
+}
+li{
+    display: inline;
+}
+
+li{
+    list-style-type: none;
+    position: relative; left: 670px;
+
+    
+}
+
+#perfume{
+    position: absolute; top: 30px;
+    position: absolute; left: 500px;
+    height: 130px;
+    
+}
+
+#logoregistro{
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 120px;
+    
+}
+
+h1{
+    font-weight: normal;
+}
+
+
+
+#boton1{
+    text-align: center;
+    position: relative;top: 610px;
+}
+
+#colorboton{
+    color: white;
+    text-decoration: none;
+}
+#estilosboton{
+    padding: 15px 30px; 
+    font-size: 16px; 
+    border: 1px solid white; 
+    background-color: transparent; 
+    color: #ffffff; 
+    outline: none; 
+    margin: 0;
+    box-shadow: none; 
+    
+
+}
+
+a{
+    color: white;
+}
+
+#estilosboton:hover{
+    border-width: 2px; 
+
+}
+
+#seccion2{
+    background-color: black;
+}
+
+.logo{
+    width: 100px;
+}
+
+
+form{
+   
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.grupo{
+    position: relative;
+    margin: 45px ;
+}
+
+input{
+
+    color: rgb(195, 158, 64);
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+}
+
+label{
+
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: -30px;
+    transition: 0.5s ease all;
+    pointer-events: none;
+    background-color: transparent;
+}
+
+input{
+    background-color: transparent;
+    border: 1px solid rgb(195, 158, 64, 0.5);
+}
+
+
+
+
+
+button{
+    font-style: none;
+    background-color: #121212;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    box-shadow: none;
+    border: none;
+    outline: none; 
+    margin: 0; 
+    box-shadow: none; 
+    color: white;
+    position: relative;
+    left: 120px;
+}
+
+#piedepagina{
+
+    background-color: #121212;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 25px;
+}
+
+*{
+    color: rgb(195, 158, 64);
+}
