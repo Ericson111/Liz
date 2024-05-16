@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+  
+<body>
+    <div id="mensaje">
+
+        <h3>Bienvenidos a nuestra Tienda Online
+
+        </h3>
+    </div>
+    <header>
+        <div id="menu">
+        <nav>
+            <ul>
+                <li><a id="hh1" href="http://localhost/liz/Principal/">Home</a></li>
+                <li><a class="hh" href="http://localhost/liz/Productos/">Productos</a></li>
+                <li><a class="hh" href="http://localhost/liz/Login/login.php">Iniciar Sesion</a></li>
+                <li><a class="hh" href="http://localhost:3000">Registrarse</a></li>
+            </ul>  
+            </nav>
+              
+          </div>
+    
+          <img id="perfume" src="logo3.png" alt="">
+    
+    
+    
+    
+        </header>
+
+
+    
+    <form action="/validar" method="POST" id="form"onsubmit="return validarFormulario()">
+
+        <img id="logoregistro" src="logo3.png" alt="">
+
+        <div class="form">
+            <h1>Registro</h1><br>
+            <div class="grupo">
+                <label for="nombre">Usuario</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="grupo">
+                <label for="contrasena">Contraseña</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+            </div>
+            <div class="grupo">
+                <label for="confirmarcontrasena">Confirmar Contraseña</label>
+                <input type="password" id="confirmarContrasena" name="confirmarContrasena" required>
+            </div>
+
+            <button type="submit">Registrarse</button>
+        </div>
+
+        <script>
+            function validarFormulario() {
+                var nombre = document.getElementById('nombre').value;
+                var contrasena = document.getElementById('contrasena').value;
+                var confirmarContrasena = document.getElementById('confirmarContrasena').value;
+            
+                // Validar que los campos no estén vacíos
+                if (nombre === '' || contrasena === '' || confirmarContrasena === '') {
+                  alert('Por favor, completa todos los campos.');
+                  return false;
+                }
+            
+                // Validar que las contraseñas coincidan
+                if (contrasena !== confirmarContrasena) {
+                  alert('Las contraseñas no coinciden. Inténtalo de nuevo.');
+                  return false;
+                }
+            
+                // Si todo está bien, puedes enviar el formulario
+                alert('¡Formulario enviado correctamente!');
+                return true;
+              }
+            
+            </script>
+            
+
+
+    </form>
+    <footer id="piedepagina">
+        <h3>Derechos reservados Perfumeria Puertas del sur</h3>
+    </footer>
+</body>
+</html>
